@@ -120,11 +120,6 @@
               <img src="img/clients/twitter.png" class="img-fluid" alt="">
             </a>
           </div>
-          {#					<div class="swiper-slide">#}
-          {#						<a href="https://discord.gg/dgtWgyjCJs" target="_blank">#}
-            {#							<img src="img/clients/discord.png" class="img-fluid" alt="">#}
-            {#						</a>#}
-          {#					</div>#}
           <div class="swiper-slide">
             <a href="https://ordinalswallet.com/collection/ordinal-rarehodl" target="_blank">
               <img src="img/clients/ordinal_wallet.png" class="img-fluid" alt="">
@@ -148,37 +143,7 @@
   </section><!-- End Clients Section -->
 
 
-  {#	<!-- ======= Features Section ======= -->#}
-  {#	<section id="features" class="features">#}
-  {#		<div class="container" data-aos="fade-up">#}
 
-    {#			<div class="row">#}
-      {#				<div class="image col-lg-6" style='background-image: url("img/about3.png");' data-aos="fade-right"></div>#}
-      {#				<div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">#}
-        {#					<div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">#}
-          {#						<i class="bx bx-receipt"></i>#}
-          {#						<h4>プロフィール</h4>#}
-          {#						<p>チャールズ・ガイバー氏は、天才的な発明家であり、エンジニアです。彼は、新しい技術やイノベーションに強い興味を持ち、その才能を最大限に発揮して、革新的な発明を次々と生み出しています。幼い頃から好奇心旺盛で、機械やロボットを自分で作ったり、プログラムを書いて遊んだりすることが大好きでした。</p>#}
-          {#					</div>#}
-        {#					<div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">#}
-          {#						<i class="bx bx-cube-alt"></i>#}
-          {#						<h4>成果</h4>#}
-          {#						<p>成長するにつれ、彼の才能はますます輝きを増していき、彼は世界中から注目されるようになりました。彼が設計した機器や装置は、その効率性や革新性によって、多くの人々に利用されるようになりました。しかし、彼はいつでも謙虚で、自分の成果に対しても批判的でした。「もっとよくできるはずだ」「まだ改善の余地がある」と、彼は自分自身を常に向上させることを忘れませんでした。</p>#}
-          {#					</div>#}
-        {#					<div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">#}
-          {#						<i class="bx bx-images"></i>#}
-          {#						<h4>常に向上心を持つ</h4>#}
-          {#						<p>チャールズ・ガイバー氏は、社交的で明るく、チームワークを重視する人物でした。彼の周りには、彼が指導したり、協力したりした人々が大勢いました。彼は常に、好奇心や創造性がある人々と働きたい、新しいテクノロジーを生み出すことができる人々と出会いたい、と願っていました。</p>#}
-          {#					</div>#}
-        {#					<div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">#}
-          {#						<i class="bx bx-shield"></i>#}
-          {#						<h4>社交性でチームワーク重視</h4>#}
-          {#						<p>結論として、チャールズ・ガイバー氏は、天才的な発明家とエンジニアとして、世界的に知られた存在でした。彼の才能や精神は、今でも多くの人々に影響を与えています。</p>#}
-          {#					</div>#}
-        {#				</div>#}
-      {#			</div>#}
-    {#		</div>#}
-  {#	</section><!-- End Features Section -->#}
 
   <!-- ======= Collection Section ======= -->
   <section id="collection" class="portfolio">
@@ -201,22 +166,1110 @@
 
       <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-        {% for values in name1 %}
-        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_{{ values['meta']['category'] }}">
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_genesis">
           <div class="portfolio-wrap">
-            <img src="https://turbo.ordinalswallet.com/inscription/content/{{ values['id'] }}" class="img-fluid" alt="">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/b71cf94f9f1f41afea0e0711035a56f5069ef0035d283765e2e9fae10c7f474fi0" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>{{ values['meta']['name'] }}</h4>
+              <h4>HODL #1</h4>
               <p>rareHODL genesis</p>
               <div class="portfolio-links">
-                {#								画像URLがifremeで表示されていないのでオフにしている#}
-                {#								<a href="https://turbo.ordinalswallet.com/inscription/content/{{ values['id'] }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="{{ values['meta']['name'] }}"><i class="bx bx-plus"></i></a>#}
-                <a href="https://ordinalswallet.com/inscription/{{ values['id'] }}" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="https://ordinalswallet.com/inscription/b71cf94f9f1f41afea0e0711035a56f5069ef0035d283765e2e9fae10c7f474fi0" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
-        {% endfor %}
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_genesis">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/bf5f33c4a6c0e10ad53b78dfb0625e0a0b16be6493a35e87df89025c0001f288i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #2</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/bf5f33c4a6c0e10ad53b78dfb0625e0a0b16be6493a35e87df89025c0001f288i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_genesis">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/802bb79c49a21c62a553b22a8e1264af05513cd54e3a5ca1a70f1d346a55802di0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #3</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/802bb79c49a21c62a553b22a8e1264af05513cd54e3a5ca1a70f1d346a55802di0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_genesis">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/f4cf3845098453d1e4078b5cde2c99022115461602a7d384f8f59982290dca9bi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #4</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/f4cf3845098453d1e4078b5cde2c99022115461602a7d384f8f59982290dca9bi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_genesis">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/3481ec3d352d230dafc78c17457bc9149b9737e0be743fa8312d32fcb927ec80i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #5</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/3481ec3d352d230dafc78c17457bc9149b9737e0be743fa8312d32fcb927ec80i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_genesis">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/76d72a67accb7b7b1c09547e25af29252ad94dc099a6955cd4cbbc4d1224d113i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #6</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/76d72a67accb7b7b1c09547e25af29252ad94dc099a6955cd4cbbc4d1224d113i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_genesis">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/e394d7a97f6c45515f5b9bf55d30eaf6afed8827f96c8b74c3f7d0da95313753i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #7</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/e394d7a97f6c45515f5b9bf55d30eaf6afed8827f96c8b74c3f7d0da95313753i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_genesis">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/fc9c3323a4efbac24f79f88a7cb52c493c53bc0a3a3770565f985dcc590946b6i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #8</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/fc9c3323a4efbac24f79f88a7cb52c493c53bc0a3a3770565f985dcc590946b6i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_genesis">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/846ab9c980ca792c001b562c408e92ddfa29bad7cbd30bd2e00e9d3e161f4db7i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #9</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/846ab9c980ca792c001b562c408e92ddfa29bad7cbd30bd2e00e9d3e161f4db7i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_genesis">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/ad17721b2d92aeb75d2f6cd66d3c98a2de2d8753bc0be7a01aeb1f1677b3fae2i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #10</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/ad17721b2d92aeb75d2f6cd66d3c98a2de2d8753bc0be7a01aeb1f1677b3fae2i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_ramen">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/6386f9c08c18745bd7a4218439b9a3b1444e6edcb172385a526f17bcf15e791bi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #11</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/6386f9c08c18745bd7a4218439b9a3b1444e6edcb172385a526f17bcf15e791bi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_ramen">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/fbc5f2bed4656c0b30525b21cbbd67362e40aa8e51d64e479d86517927d15e4ei0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #12</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/fbc5f2bed4656c0b30525b21cbbd67362e40aa8e51d64e479d86517927d15e4ei0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_ramen">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/011bcb3fdb1111eb41255857c5fb1c5526f8cbd9a791b80cc312ba7dedf20f69i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #13</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/011bcb3fdb1111eb41255857c5fb1c5526f8cbd9a791b80cc312ba7dedf20f69i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_ramen">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/7c3b28d562a9727aad43926a2a928b2b4bd6c142a12535df59fec0128e53f1bci0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #14</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/7c3b28d562a9727aad43926a2a928b2b4bd6c142a12535df59fec0128e53f1bci0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_ramen">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/0b861d5258ab2d5a3ef877b7563dbd18d38f8a03d5a37c1e6bd12aa16e3e2417i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #15</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/0b861d5258ab2d5a3ef877b7563dbd18d38f8a03d5a37c1e6bd12aa16e3e2417i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_ramen">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/78f8af67d19079df6263d777880847c58bda70098351aba5ddab176e137b1f1ci0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #16</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/78f8af67d19079df6263d777880847c58bda70098351aba5ddab176e137b1f1ci0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_ramen">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/f38759506482658657449f4f83831a86a8a1c84b1f010039df4f9ea3c40b9f6bi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #17</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/f38759506482658657449f4f83831a86a8a1c84b1f010039df4f9ea3c40b9f6bi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_ramen">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/2ee9f53f29bbba4c1787ccda7d437444355c3256ecbb1385d2720954034c6905i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #18</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/2ee9f53f29bbba4c1787ccda7d437444355c3256ecbb1385d2720954034c6905i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_ramen">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/a4d0973f571d09550eaee3574bf1d6c764c3329e855dbed99d3f510936577cddi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #19</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/a4d0973f571d09550eaee3574bf1d6c764c3329e855dbed99d3f510936577cddi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_ramen">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/adc43c3f46b36e74cbf7f46b0dbbab3158312ffe6d8b397c18df4d236904c6e6i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #20</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/adc43c3f46b36e74cbf7f46b0dbbab3158312ffe6d8b397c18df4d236904c6e6i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/fff82b4462410336092f63cfdfa13d3f6051adb9014aaa15bf4e348db9f26686i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #21</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/fff82b4462410336092f63cfdfa13d3f6051adb9014aaa15bf4e348db9f26686i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/927459370b83d25f3f8bafddb127468b3ee17e172316aea160ce3cb2905cf573i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #22</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/927459370b83d25f3f8bafddb127468b3ee17e172316aea160ce3cb2905cf573i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/97b638955733aaef041f03d76ddb924c72286ea11c2387077216ebfa9c33711di0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #23</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/97b638955733aaef041f03d76ddb924c72286ea11c2387077216ebfa9c33711di0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/b0e872f7d7fd3f59b5d2ef92aac5c8b94fad221b0dcb00178a632dbe5cd957abi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #24</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/b0e872f7d7fd3f59b5d2ef92aac5c8b94fad221b0dcb00178a632dbe5cd957abi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/983949912021f2982a6037104310a68c2b110c6aba988e10262556235018c264i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #25</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/983949912021f2982a6037104310a68c2b110c6aba988e10262556235018c264i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/42f3f5ca95cd1cc2725ffce05799f642bab407db5f517f8199b64473214b82e9i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #26</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/42f3f5ca95cd1cc2725ffce05799f642bab407db5f517f8199b64473214b82e9i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/51c6a44ea633dfb6e73d87fb0e231343040c3f370121a30692f3a90741f398cdi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #27</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/51c6a44ea633dfb6e73d87fb0e231343040c3f370121a30692f3a90741f398cdi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/3325491b661be7fda7e93e75f6a0ea423d786476e60720d93fae27528368e916i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #28</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/3325491b661be7fda7e93e75f6a0ea423d786476e60720d93fae27528368e916i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/98210b997936ca4ed788333a51db2401e0db8fbf8dc6e2f366e0ba275b88ccbfi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #29</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/98210b997936ca4ed788333a51db2401e0db8fbf8dc6e2f366e0ba275b88ccbfi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/b3045003f043155f4f320fcb9b331f0cb8ecaf70c93f8ece292efa85d2c4ec82i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #30</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/b3045003f043155f4f320fcb9b331f0cb8ecaf70c93f8ece292efa85d2c4ec82i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/134325316835ac083daad5ec86a942ae52a94435c0782a6adebbdcaf15b06a4fi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #31</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/134325316835ac083daad5ec86a942ae52a94435c0782a6adebbdcaf15b06a4fi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/964815d48aa2b2871978cb58505071ded5810577b7d3047cb36c568c6f089251i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #32</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/964815d48aa2b2871978cb58505071ded5810577b7d3047cb36c568c6f089251i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/aaa04a5d88ab6ec40c83164c50a9837c79a81d0a601fae2abad31f5edfbe916bi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #33</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/aaa04a5d88ab6ec40c83164c50a9837c79a81d0a601fae2abad31f5edfbe916bi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/a8c6e21f8e7fc12d704ed656b1ada57f2f37f89e222d1dc535b1f909eb83287bi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #34</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/a8c6e21f8e7fc12d704ed656b1ada57f2f37f89e222d1dc535b1f909eb83287bi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/d59717e7ee4a585030259c67b5b8bfdeee93fd5634d7530c2c336d1e345b6101i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #35</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/d59717e7ee4a585030259c67b5b8bfdeee93fd5634d7530c2c336d1e345b6101i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/056a414bdef1666f96f6a633c49c6f969ad390af25234289e800de164997f589i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #36</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/056a414bdef1666f96f6a633c49c6f969ad390af25234289e800de164997f589i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/d96853f0175077e0e21ed84ab069fcaaf93dd6eee3dcc1cf18fd6b400cb21266i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #37</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/d96853f0175077e0e21ed84ab069fcaaf93dd6eee3dcc1cf18fd6b400cb21266i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/3cd11a60df4922c7c6e76c9ecd8624c457ef227d10c83f7dcb557250624167afi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #38</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/3cd11a60df4922c7c6e76c9ecd8624c457ef227d10c83f7dcb557250624167afi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/adad028ac4a362d110af90428c8fb4807371b4f0862aadabc5edb5d2e9eefa27i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #39</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/adad028ac4a362d110af90428c8fb4807371b4f0862aadabc5edb5d2e9eefa27i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/17db03e618f1ac3bda8902841b1a6f34085f27dcb1f4df5950e62fd7bd968e9ei0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #40</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/17db03e618f1ac3bda8902841b1a6f34085f27dcb1f4df5950e62fd7bd968e9ei0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/eab68a7f8dd04be3ba4d85a700a759a4d64f35b4aaca95eaca63b7d7fb485878i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #41</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/eab68a7f8dd04be3ba4d85a700a759a4d64f35b4aaca95eaca63b7d7fb485878i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/d36da1709efc1b08c60a74ff99f018bde19b62ae5d5c5685152eae81fac964b1i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #42</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/d36da1709efc1b08c60a74ff99f018bde19b62ae5d5c5685152eae81fac964b1i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/72917f404f0842fbeab5187fd30e9f2431c4a5c301f01a443fdf42f70d7cd233i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #43</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/72917f404f0842fbeab5187fd30e9f2431c4a5c301f01a443fdf42f70d7cd233i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/fa449eb74a6647fd1ecf5f4681323f73949b3340a2e048f284570eda8d5ea230i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #44</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/fa449eb74a6647fd1ecf5f4681323f73949b3340a2e048f284570eda8d5ea230i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/c55cc8dea9ab18f89d6f0a7030557cb470eeeb1c2bc25529668b989583d126fai0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #45</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/c55cc8dea9ab18f89d6f0a7030557cb470eeeb1c2bc25529668b989583d126fai0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/545fe3c7f43b8eee0817668334f82d026a01b568ee2c42f122a3341f6b0e83d3i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #46</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/545fe3c7f43b8eee0817668334f82d026a01b568ee2c42f122a3341f6b0e83d3i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/959186e67575655a6973d41c0b7c7222b4ded568f5590d150205183136548eaei0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #47</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/959186e67575655a6973d41c0b7c7222b4ded568f5590d150205183136548eaei0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/df30165ec2b3115e16277107aed07592af7ff5cac72aa621c91fc8340a4e9fd3i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #48</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/df30165ec2b3115e16277107aed07592af7ff5cac72aa621c91fc8340a4e9fd3i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/c001014f8abca43988bc8429d3a8beab1bfc52d1d9151adfea9aa1ea299eab97i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #49</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/c001014f8abca43988bc8429d3a8beab1bfc52d1d9151adfea9aa1ea299eab97i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/a49115590e675a3a4a785f442f00f414417a833eeaf78a67ded9883a4dc60249i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #50</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/a49115590e675a3a4a785f442f00f414417a833eeaf78a67ded9883a4dc60249i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/362b24ccbfd0b50a647c59556339941f3ee4c43014e80381e25754f6fbd0457ci0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #51</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/362b24ccbfd0b50a647c59556339941f3ee4c43014e80381e25754f6fbd0457ci0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/831eb88a4fb1b254144e7d29f9c91ded2e30033220e2be20cb74a754d8cdb122i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #52</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/831eb88a4fb1b254144e7d29f9c91ded2e30033220e2be20cb74a754d8cdb122i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/ec00cc660b61a11ab1fe91b92b03428a185101e19c0f86528f6ad38559bf6a07i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #53</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/ec00cc660b61a11ab1fe91b92b03428a185101e19c0f86528f6ad38559bf6a07i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/28c248237dc142008b7e54fc598822f29d5dc729c34ed8ed3a5383dec18b9949i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #54</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/28c248237dc142008b7e54fc598822f29d5dc729c34ed8ed3a5383dec18b9949i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/ded745ea3ea5e777a7898d8276278cd88e14745ac0ec3eed1b6d47e5d08354fci0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #55</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/ded745ea3ea5e777a7898d8276278cd88e14745ac0ec3eed1b6d47e5d08354fci0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/dbfda0bd35a80e026030ccc3d965b590f8cf09c35d4d63ff4538be599f9e402fi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #56</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/dbfda0bd35a80e026030ccc3d965b590f8cf09c35d4d63ff4538be599f9e402fi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/44f9afcfd9e1289ac9c50200434fa2a71b29e05a2feb008534db0f8736d18886i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #57</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/44f9afcfd9e1289ac9c50200434fa2a71b29e05a2feb008534db0f8736d18886i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/1f4a118f0e9811b00b92b4b67329e65f20eb6ba64e0f52e50638fd9e282b24c3i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #58</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/1f4a118f0e9811b00b92b4b67329e65f20eb6ba64e0f52e50638fd9e282b24c3i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/a464138e309a5f443d35edf880a49ec53c5a6771329a750e691b24ba4d717088i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #59</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/a464138e309a5f443d35edf880a49ec53c5a6771329a750e691b24ba4d717088i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/a6707acc79be3dd333908a90664dbb80b3c4e7f44d62c1e26229195dc307ea0ai0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #60</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/a6707acc79be3dd333908a90664dbb80b3c4e7f44d62c1e26229195dc307ea0ai0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/3b74798629caf17a1690619685936b894635c3f84ddf302591c293458257e21fi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #61</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/3b74798629caf17a1690619685936b894635c3f84ddf302591c293458257e21fi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/f916b7941a2c5baee9d37e2845efb160f416c892ca47d5122f7415e69aa5ce0ei0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #62</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/f916b7941a2c5baee9d37e2845efb160f416c892ca47d5122f7415e69aa5ce0ei0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/dcb6b52a1740e9942df0340bcfd03b3cb6d7d9cbdb4e8bb7a596fb237b7ccd47i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #63</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/dcb6b52a1740e9942df0340bcfd03b3cb6d7d9cbdb4e8bb7a596fb237b7ccd47i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/0da2a0d4f3744ab664ac9b9d5d44fa2204835d373161f293ee8fadc51f9ce731i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #64</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/0da2a0d4f3744ab664ac9b9d5d44fa2204835d373161f293ee8fadc51f9ce731i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/22924eb1ac678aa3748d153d5813d0efb2d85e3481c5dc48c7c43244d69a4e98i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #65</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/22924eb1ac678aa3748d153d5813d0efb2d85e3481c5dc48c7c43244d69a4e98i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/28b7e88f8ef139dfdac31f0b51d2c15906bcdd441f22216a02d0b92ada980c58i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #66</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/28b7e88f8ef139dfdac31f0b51d2c15906bcdd441f22216a02d0b92ada980c58i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/770c99ca053430d5c6279ab75a916c5ac64fa185c73437f6e1d7ed57b044d7c6i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #67</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/770c99ca053430d5c6279ab75a916c5ac64fa185c73437f6e1d7ed57b044d7c6i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/075fef0c49a5c00537014ac920189de55f91a627a81b24dcef04e9f34524c056i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #68</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/075fef0c49a5c00537014ac920189de55f91a627a81b24dcef04e9f34524c056i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/e51803d7d74df9f98e43f1e175db0ff5db318472f6128c9de6bb8f01305b040bi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #69</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/e51803d7d74df9f98e43f1e175db0ff5db318472f6128c9de6bb8f01305b040bi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/a3dabb7752b3152a5ccfa3b6ad84814f2870b5102a446bb53b56bb1a92225757i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #70</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/a3dabb7752b3152a5ccfa3b6ad84814f2870b5102a446bb53b56bb1a92225757i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/2dcc51965c066da35c3e8307d2ad1bd0ec71dc2b529e050d2a5253400a81b23bi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #71</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/2dcc51965c066da35c3e8307d2ad1bd0ec71dc2b529e050d2a5253400a81b23bi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/b3b65f5b0b8d652f44b2558dc813695f8fe2ba0f4a21eb8993c74726145aafa4i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #72</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/b3b65f5b0b8d652f44b2558dc813695f8fe2ba0f4a21eb8993c74726145aafa4i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/c539a444a934b0304f9da481ea60e68d573fb0e7be57ebd325d1716855fd431ci0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #73</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/c539a444a934b0304f9da481ea60e68d573fb0e7be57ebd325d1716855fd431ci0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/ea3a0cd63201b108e521c8f048b21790cd219288797bc8e67011cc305901c9c0i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #74</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/ea3a0cd63201b108e521c8f048b21790cd219288797bc8e67011cc305901c9c0i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/43fe81f8b786f893d97d428bdb3c2afda1cf34d1d46cd649229abffcefd9f83ai0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #75</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/43fe81f8b786f893d97d428bdb3c2afda1cf34d1d46cd649229abffcefd9f83ai0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/2d67784076a0fe2f256dd0dfbaa2be053b22646f9131c60fac64eb34f274abadi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #76</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/2d67784076a0fe2f256dd0dfbaa2be053b22646f9131c60fac64eb34f274abadi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/c18ce53e04a5b73a376aa2081bde6092df21a8b45c09a5746df9566b8c56accci0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #77</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/c18ce53e04a5b73a376aa2081bde6092df21a8b45c09a5746df9566b8c56accci0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/24d36a87bc399f08d2b701eabb1a61968cfc9610edf85c4ec4bfcd77f89d3875i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #78</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/24d36a87bc399f08d2b701eabb1a61968cfc9610edf85c4ec4bfcd77f89d3875i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/00157e2fc57024e2ba4581b42c5ef09be35faa0245ea5dddb74e81a621ce0f26i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #79</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/00157e2fc57024e2ba4581b42c5ef09be35faa0245ea5dddb74e81a621ce0f26i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/231b4aa8920e95140536bf7a29c32b5ccaff2cdc3e4c1c56b45faa23e3a826e0i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #80</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/231b4aa8920e95140536bf7a29c32b5ccaff2cdc3e4c1c56b45faa23e3a826e0i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/9f0b5d6108ffc58b0ff5ee80a0a4a79fe73e2f9138c7d89dd4086a67e79395b3i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #81</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/9f0b5d6108ffc58b0ff5ee80a0a4a79fe73e2f9138c7d89dd4086a67e79395b3i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/188baf702154e1c0ac3873ed5d818719af0019d5d8a12ddbebbb4a15d1ebe538i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #82</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/188baf702154e1c0ac3873ed5d818719af0019d5d8a12ddbebbb4a15d1ebe538i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/e62364c77d4a8835a0ba0a4e83b16e82ef7c3587613f4756d461e7ba44c71e24i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #83</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/e62364c77d4a8835a0ba0a4e83b16e82ef7c3587613f4756d461e7ba44c71e24i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/043c5f0d8c7f0cd3c056cd45804303c4359430bac577fac07520da56b0b80ca1i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #84</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/043c5f0d8c7f0cd3c056cd45804303c4359430bac577fac07520da56b0b80ca1i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/a705fb9ab1f4df304cc15a31eb4a70cae6708c42a57b4b2b14a19347ca540dbbi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #85</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/a705fb9ab1f4df304cc15a31eb4a70cae6708c42a57b4b2b14a19347ca540dbbi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/f7090b0eeb9b6b2c7023a51f740b1c58d4b5e786fcefa50e2ffd7550639549a5i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #86</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/f7090b0eeb9b6b2c7023a51f740b1c58d4b5e786fcefa50e2ffd7550639549a5i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/409fd4375743a7afd663df64ade125302888f89cb1f7ca98b6c97223285043ffi0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #87</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/409fd4375743a7afd663df64ade125302888f89cb1f7ca98b6c97223285043ffi0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/d4ac63129d4dcc6916b6e578a9d3690444e6b41aa2114e76bc11da3b977867bai0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #88</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/d4ac63129d4dcc6916b6e578a9d3690444e6b41aa2114e76bc11da3b977867bai0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/4dacad2aa6b629d9656bd838d4f9263ffba099e814d943e422e45f45ad598572i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #89</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/4dacad2aa6b629d9656bd838d4f9263ffba099e814d943e422e45f45ad598572i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/33b97bca231b6cad5ebdc0d88323e2b251f44bd39861f37d5b945251bcfe56f9i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #90</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/33b97bca231b6cad5ebdc0d88323e2b251f44bd39861f37d5b945251bcfe56f9i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/ad4dda9fb0f0d8b87ed155c0a22ca4277d9b9c6ce765aab0e86948a0bda472d8i0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #91</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/ad4dda9fb0f0d8b87ed155c0a22ca4277d9b9c6ce765aab0e86948a0bda472d8i0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-rarehodl_gachiho">
+          <div class="portfolio-wrap">
+            <img src="https://turbo.ordinalswallet.com/inscription/content/ddf1ba4e2883039739776bd22203eafc1a14c19a27396158a8a5f5c61d70263ei0" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>HODL #92</h4>
+              <p>rareHODL genesis</p>
+              <div class="portfolio-links">
+                <a href="https://ordinalswallet.com/inscription/ddf1ba4e2883039739776bd22203eafc1a14c19a27396158a8a5f5c61d70263ei0" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section><!-- End Portfolio Section -->
@@ -317,9 +1370,6 @@
             <div class="social-links mt-3">
               <a href="https://twitter.com/ordinalrarehodl" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="https://discord.gg/dgtWgyjCJs" class="discord"><i class="bx bxl-discord"></i></a>
-              {#							<a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>#}
-              {#							<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>#}
-              {#							<a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>#}
             </div>
           </div>
         </div>
