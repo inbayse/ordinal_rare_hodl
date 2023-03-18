@@ -352,11 +352,28 @@
 </footer><!-- End Footer -->
 
 <div class="go-to-discord col-lg-2 col-md-6">
-  RareHODLで盛り上がろう！
+  <span id="go-to-discord-text">RareHODLで盛り上がろう！</span>
   <a href="https://discord.gg/dgtWgyjCJs" class="go-to-discord-link" target="_blank">
 		<span class="go-to-discord-button"><i class="bx bxl-discord"></i>
 			&nbsp;Discord</span></a>
 </div>
+
+<script>
+  const goToDiscordText = document.getElementById('go-to-discord-text')
+  if (innerWidth < 500) {
+    goToDiscordText.innerText = ''
+  } else {
+    goToDiscordText.innerText = 'RareHODLで盛り上がろう！'
+  }
+  window.onresize = () => {
+    if (innerWidth < 500) {
+      goToDiscordText.innerText = ''
+    } else {
+      goToDiscordText.innerText = 'RareHODLで盛り上がろう！'
+    }
+  }
+
+</script>
 
 <style>
   @media screen and (min-width: 800px) {
